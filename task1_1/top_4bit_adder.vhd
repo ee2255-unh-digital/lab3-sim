@@ -10,8 +10,8 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 entity top_4bit_adder is
 port (
-        av : inout std_logic_vector(3 downto 0);      
-        bv : inout std_logic_vector(3 downto 0);
+        av : in std_logic_vector(3 downto 0);      
+        bv : in std_logic_vector(3 downto 0);
         cin : in std_logic;
         sv : out std_logic_vector(3 downto 0);
         cout : out std_logic                         
